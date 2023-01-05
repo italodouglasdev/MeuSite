@@ -11,3 +11,15 @@ function typeWrite(elemento) {
 }
 const titulo = document.querySelector('.cabecalho-banner-texto-principal');
 typeWrite(titulo);
+
+
+/* Scroll mais suave, melhorar depois para tipo ScrollSpy */
+document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+    anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        document.querySelector(this.getAttribute('href')).scrollIntoView({
+            behavior: 'smooth'
+        });
+    });
+});

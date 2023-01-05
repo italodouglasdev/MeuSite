@@ -9,7 +9,7 @@
  }
 
  body {
-     background-color: rgb(61, 60, 60);
+     background-color: rgb(0, 0, 0);
  }
 
 
@@ -93,4 +93,66 @@
      50% {
          opacity: 0;
      }
+ }
+
+
+ .principal-portifolio-cartao-visita {
+     display: inline-block;
+     margin-top: 20px;
+     height: 500px;
+     width: 100%;
+     background: var(--corNavBar);
+ }
+
+
+ .cartao-visita-corpo {
+     max-width: 608px;
+     width: 100%;
+     margin: 80px auto;
+     padding: 45px;
+ }
+
+ .cartao-visita-perfil-imagem {
+     width: 200px;
+     margin: 0 auto;
+ }
+
+ .perfil-imagem {
+     width: 100%;
+     border-radius: 100%;
+ }
+
+ .perfil-titulo {
+     margin-bottom: 0;
+     text-align: center;
+     font-weight: bold;
+     font-size: 30px;
+     color: #fff;
+ }
+
+ .perfil-titulo-cor {
+     color: var(--corVerdeMatrix);
+ }
+
+ .perfil-subtitulo {
+     text-align: center;
+     font-size: 20px;
+     font-weight: bold;
+     color: #fff;
+ }
+
+ .cartao-visita-perfil-texto {
+     text-align: center;
+     color: #fff;
+ }
+
+ .cartao-visita-rodape {
+     margin-top: 20px;
+     text-align: center;
+ }
+
+ .cartao-visita-rodape-icone {
+     color: #fff;
+     font-size: 16px;
+     margin-right: 10px;
  }
