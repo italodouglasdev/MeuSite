@@ -18,14 +18,8 @@
 
         <nav class="cabecalho-navbar">
             <ul class="cabecalho-navbar-lista">
-
                 <li class="cabecalho-navbar-lista-item"><a class="cabecalho-navbar-lista-item-link active" href="#home">
                         <i class="fas fa-terminal"></i></a>
-
-                </li>
-
-                <li class="cabecalho-navbar-lista-item"><a class="cabecalho-navbar-lista-item-link active" href="#home">
-                        Home</a>
 
                 </li>
                 <li class="cabecalho-navbar-lista-item"><a class="cabecalho-navbar-lista-item-link"
@@ -82,14 +76,21 @@
 
         <section class="principal-projetos" id="Projetos">
 
+            <!--Finalizar essa Seção
+            2023-01-09-19:44-->
+
             <div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta distinctio adipisci obcaecati.
+                <h2 style="color: white;">Projetos</h2>
+
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta
+                    distinctio adipisci obcaecati.
                     Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
                     excepturi
                     praesentium iste, veritatis natus.</p>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta distinctio adipisci obcaecati.
+                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta
+                    distinctio adipisci obcaecati.
                     Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
                     excepturi
                     praesentium iste, veritatis natus.</p>
@@ -104,14 +105,30 @@
 
         <section class="principal-contato" id="Contato">
 
-            <div>
 
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta distinctio adipisci obcaecati.
-                    Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
-                    excepturi
-                    praesentium iste, veritatis natus. Teste.
-                </p>
-            </div>
+            <form class="principal-contato-corpo">
+
+                <h2 class="contato-titulo">Contato</h2>
+
+                <div>
+                    <Input type="text" id="contato-nome" name="contato-nome" placeholder="Nome"></Input>
+                    <Input type="text" id="contato-sobrenome" name="contato-sobrenome" placeholder="Sobrenome"></Input>
+                </div>
+
+                <div>
+                    <Input type="email" id="contato-email" name="contato-email" placeholder="Email"></Input>
+                    <Input type="tel" id="contato-telefone" name="contato-telefone" placeholder="Telefone"></Input>
+                </div>
+
+
+                <div>
+                    <textarea id="contato-mensagem" name="contato-mensagem"></textarea>
+                </div>
+
+            </form>
+
+
+
 
         </section>
 

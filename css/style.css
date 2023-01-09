@@ -112,6 +112,14 @@
      padding: 45px;
  }
 
+
+ @media (max-width: 768px) {
+     .cartao-visita-corpo {
+         width: 98%;
+         padding: 15px;
+     }
+ }
+
  .cartao-visita-perfil-imagem {
      width: 200px;
      margin: 0 auto;
@@ -120,6 +128,13 @@
  .perfil-imagem {
      width: 100%;
      border-radius: 100%;
+ }
+
+
+ @media (max-width: 768px) {
+     .cartao-visita-perfil-descricao {
+         width: 98%;
+     }
  }
 
  .perfil-titulo {
@@ -155,4 +170,48 @@
      color: #fff;
      font-size: 16px;
      margin-right: 10px;
+ }
+
+
+ /*Projetoss*/
+
+ .principal-projetos {
+     max-width: 608px;
+     width: 100%;
+     margin: 80px auto;
+     padding: 2rem;
+
+
+ }
+
+ /*Contato*/
+
+ .principal-contato {
+     display: inline-block;
+     margin-top: 20px;
+     width: 100%;
+     margin: auto;
+
+ }
+
+ .principal-contato-corpo {
+     max-width: 608px;
+     width: 100%;
+     margin: 80px auto;
+     padding: 2rem;
+     background: var(--corNavBar);
+ }
+
+
+ @media (max-width: 768px) {
+     .principal-contato-corpo {
+         padding: .8rem;
+
+     }
+ }
+
+ .contato-titulo {
+     margin-bottom: 2rem;
+     color: var(--corVerdeMatrix);
+     font-weight: bold;
  }
