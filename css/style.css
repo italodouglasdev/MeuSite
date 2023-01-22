@@ -6,10 +6,32 @@
      --corNavBar: rgb(44, 43, 43);
      --corPrincipal: #000;
      --corVerdeMatrix: #42C920;
+     --corInput: rgb(58 56 56);
  }
 
  body {
      background-color: rgb(0, 0, 0);
+ }
+
+
+
+ .botao {
+     background-color: var(--corVerdeMatrix);
+     border: none;
+     color: var(--corInput);
+     padding: 10px 20px;
+     text-align: center;
+     text-decoration: none;
+     display: inline-block;
+     font-size: 16px;
+ }
+
+ .botao:hover {
+     cursor: pointer;
+ }
+
+ .underline_piscando {
+     animation: pisca .7s infinite;
  }
 
 
@@ -115,7 +137,7 @@
 
  @media (max-width: 768px) {
      .cartao-visita-corpo {
-         width: 98%;
+         width: 90%;
          padding: 15px;
      }
  }
@@ -176,13 +198,71 @@
  /*Projetoss*/
 
  .principal-projetos {
-     max-width: 608px;
+     max-width: 700px;
      width: 100%;
      margin: 80px auto;
-     padding: 2rem;
-
-
+     color: var(--corVerdeMatrix);
  }
+
+ .principal-projetos-titulo {
+     margin-bottom: 10px;
+ }
+
+
+
+
+ /* Float four columns side by side */
+ .column {
+     float: left;
+     width: 25%;
+     padding: 0 10px;
+     margin: auto;
+     box-sizing: border-box;
+ }
+
+ /* Remove extra left and right margins, due to padding */
+ .row {
+     margin: 0 -5px;
+ }
+
+ /* Clear floats after the columns */
+ .row:after {
+     content: "";
+     display: table;
+     clear: both;
+ }
+
+ /* Responsive columns */
+ @media (max-width: 768px) {
+     .column {
+         width: 100%;
+         display: block;
+         margin-bottom: 20px;
+     }
+ }
+
+ /* Style the counter cards */
+ .card {
+     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+     padding: 20px;
+     margin: 10px;
+     text-align: center;
+     background-color: var(--corInput);
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  /*Contato*/
 
@@ -195,7 +275,7 @@
  }
 
  .principal-contato-corpo {
-     max-width: 608px;
+     max-width: 700px;
      width: 100%;
      margin: 80px auto;
      padding: 2rem;
@@ -205,7 +285,8 @@
 
  @media (max-width: 768px) {
      .principal-contato-corpo {
-         padding: .8rem;
+         max-width: 90%;
+         padding: 15px;
 
      }
  }
@@ -214,4 +295,37 @@
      margin-bottom: 2rem;
      color: var(--corVerdeMatrix);
      font-weight: bold;
+ }
+
+
+ .contato-input {
+     width: 100%;
+     padding: 12px 20px;
+     margin: 8px 0;
+     box-sizing: border-box;
+     border: none;
+     color: #fff;
+     background-color: var(--corInput);
+     border-bottom: 1px solid var(--corVerdeMatrix);
+ }
+
+ .contato-botao {
+     margin-top: 5px;
+     text-align: right;
+ }
+
+ .textarea {
+     height: 150px;
+ }
+
+ .contato-input:focus {
+     outline: none;
+     border: 1px solid var(--corVerdeMatrix);
+ }
+
+ .rodape {
+     text-align: center;
+     background-color: var(--corNavBar);
+     color: var(--corVerdeMatrix);
+     padding: 15px;
  }

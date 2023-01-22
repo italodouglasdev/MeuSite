@@ -1,5 +1,4 @@
-// ## Pendente Finalização ## 
-//202301102100
+//Pendente Finalização 202301102100
 
 
 //Remover formatacao
@@ -12,7 +11,8 @@ function RemoverFormatacao(texto) {
 }
 
 
-//Escuta o evento keyup na classe mascaraTelefone
+
+//Escuta o evento de click na classe mascaraTelefone
 document.body.addEventListener('keyup', function (e) {
     if (!e.target.classList.contains('mascaraTelefone')) return;
 
@@ -45,6 +45,7 @@ document.body.addEventListener('keyup', function (e) {
     }
 
     campo.value = telefone;
+
 
 });
 

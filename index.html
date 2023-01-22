@@ -33,7 +33,7 @@
 
         <div class="cabecalho-banner">
 
-            <h1 class="cabecalho-banner-texto-principal">italo_douglas.Dev</h1>
+            <h1 class="cabecalho-banner-texto-principal">italodouglas.Dev</h1>
 
         </div>
 
@@ -62,11 +62,12 @@
 
                     </div>
                     <div class="cartao-visita-rodape">
-                        <a href="#" class="cartao-visita-rodape-icone"><i class="fab fa-instagram"></i></a>
-                        <a href="#" class="cartao-visita-rodape-icone"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="cartao-visita-rodape-icone"><i class="fab fa-twitter"></i></a>
-                        <a href="#" class="cartao-visita-rodape-icone"><i class="fab fa-linkedin-in"></i></a>
-                        <a href="#" class="cartao-visita-rodape-icone"><i class="fab fa-youtube"></i></a>
+                        <a href="https://www.linkedin.com/in/italo-douglas-dev/" target="_blank"
+                            class="cartao-visita-rodape-icone"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/italodouglasdev" target="_blank"
+                            class="cartao-visita-rodape-icone"><i class="fab fa-github"></i></a>
+                        <a href="https://www.instagram.com/italo_douglas/" target="_blank"
+                            class="cartao-visita-rodape-icone"><i class="fab fa-instagram"></i></a>
                     </div>
                 </div>
 
@@ -76,30 +77,35 @@
 
         <section class="principal-projetos" id="Projetos">
 
-            <!--Finalizar essa Seção
-            2023-01-09-19:44-->
+            <h2 class="principal-projetos-titulo">Projetos</h2>
+            <!--
+            <div class="row">
+                <div class="column">
+                    <div class="card">
+                        <h3>Card 1</h3>
+                        <p>Some text</p>
+                        <p>Some text</p>
+                    </div>
+                </div>
 
-            <div>
+                <div class="column">
+                    <div class="card">
+                        <h3>Card 2</h3>
+                        <p>Some text</p>
+                        <p>Some text</p>
+                    </div>
+                </div>
 
-                <h2 style="color: white;">Projetos</h2>
+                <div class="column">
+                    <div class="card">
+                        <h3>Card 3</h3>
+                        <p>Some text</p>
+                        <p>Some text</p>
+                    </div>
+                </div>
 
-                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta
-                    distinctio adipisci obcaecati.
-                    Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
-                    excepturi
-                    praesentium iste, veritatis natus.</p>
-
-                <p style="color: white;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta
-                    distinctio adipisci obcaecati.
-                    Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
-                    excepturi
-                    praesentium iste, veritatis natus.</p>
-
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime soluta distinctio adipisci obcaecati.
-                    Soluta ea voluptates officiis repudiandae dolorem dignissimos. Aperiam rem vitae molestiae et
-                    excepturi
-                    praesentium iste, veritatis natus.</p>
             </div>
+        -->
 
         </section>
 
@@ -111,20 +117,27 @@
                 <h2 class="contato-titulo">Contato</h2>
 
                 <div>
-                    <Input type="text" id="contato-nome" name="contato-nome" placeholder="Nome"></Input>
-                    <Input type="text" id="contato-sobrenome" name="contato-sobrenome" placeholder="Sobrenome"></Input>
+                    <Input class="contato-input" autocomplete="off" type="text" id="contato-nome" name="contato-nome"
+                        placeholder="Nome"></Input>
                 </div>
 
                 <div>
-                    <Input type="email" id="contato-email" name="contato-email" placeholder="Email"></Input>
-                    <Input type="tel" class="mascaraTelefone" id="contato-telefone" name="contato-telefone"
-                        placeholder="Telefone"></Input>
+                    <Input class="contato-input" autocomplete="off" type="email" id="contato-email" name="contato-email"
+                        placeholder="Email"></Input>
+                    <Input class="contato-input" autocomplete="off" type="tel" class="mascaraTelefone"
+                        id="contato-telefone" name="contato-telefone" placeholder="Telefone"></Input>
                 </div>
 
 
                 <div>
-                    <textarea id="contato-mensagem" name="contato-mensagem"></textarea>
+                    <textarea class="contato-input textarea" id="contato-mensagem" name="contato-mensagem"
+                        placeholder="Sua Mensagem"></textarea>
                 </div>
+
+                <div class="contato-botao">
+                    <button class="botao">Enviar <span class="underline_piscando">_</span></button>
+                </div>
+
 
             </form>
 
@@ -136,7 +149,10 @@
     </man>
 
     <footer>
+        <div class="rodape">
+            <p>© Italo Douglas Vasconcelos de Alencar, 2023</p>
 
+        </div>
     </footer>
 
 
